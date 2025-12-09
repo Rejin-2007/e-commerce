@@ -1,9 +1,7 @@
 import Navbar from './components/Navbar/Navbar'
-import { assets } from './assets/assets'
-
 const App = () => {
   return (
-    <div>
+    <div className='w-[80%] mx-auto mt-5 text-lg'>
       <Navbar />
     </div>
   )
